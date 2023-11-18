@@ -1,0 +1,229 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#navbar {
+  background: #765c3d;
+}
+
+#navbar p {
+  font-family: Montserrat;
+  color: #f2d2ae;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+#navbarNav li {
+  color: #f2d2ae;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+#landing {
+  vh: 816px;
+  flex-shrink: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)),
+    url("./images/Background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#title {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 72px; /* 112.5% */
+  letter-spacing: -1.28px;
+}
+#landing p {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 125% */
+}
+
+#base {
+  color: var(--button-text-button-primary-text, #fff);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 120% */
+
+  display: flex;
+  padding: 12px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  border-radius: 999px;
+  background: #b59066;
+}
+
+#gallery-header {
+  display: flex;
+  width: 983px;
+  height: 138px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 31px;
+  flex-shrink: 0;
+}
+
+#gallery-text {
+  color: #765c3d;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+#gallery-p {
+  color: #765c3d;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.album1 {
+  width: 1245px;
+  height: 764px;
+  background: #fff;
+  box-shadow: 0px 4px 23px 0px rgba(0, 0, 0, 0.25);
+}
+
+.album-title {
+  color: #765c3d;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.album-p {
+  color: #765c3d;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+ol.carousel-indicators li {
+  width: 8px;
+  height: 8px;
+  margin: 0;
+  border-radius: 50%;
+  border: 0;
+}
+
+ol.carousel-indicators li {
+  background: rgba(255, 255, 255, 0.39);
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+ol.carousel-indicators li.active {
+  background: rgb(248, 248, 244);
+}
+
+#contact {
+  background: #fff2e4;
+}
+
+#contact-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)),
+    url("./images/Link\ in\ bio.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#demo3 {
+  height: 300px;
+  width: 300px;
+}
+
+#contact-header {
+  color: #765c3d;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+#contact-text {
+  color: #765c3d;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#form-btn {
+  border-radius: 999px;
+  background: #b59066;
+
+  color: var(--button-text-button-primary-text, #fff);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 120% */
+}
+
+.form-group {
+  color: #b59066;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.form-group ::placeholder {
+  color: #765c3d;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.Logo {
+  color: #fff2e4;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background: #b59066;
+}
+
+footer {
+  color: #fff2e4;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background: #b59066;
+}
